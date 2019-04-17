@@ -1,0 +1,27 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "es6(ecma 2015) test with babel",
+  "main": "index.js",
+  "scripts": {
+    "flow": "flow",
+    "flow:check": "flow check *.js",
+    "flow:build": "flow-remove-types *.js -d ./lib/ --all --pretty",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "es6",
+    "babel"
+  ],
+  "author": "sudhir murthy",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/preset-flow": "^7.0.0",
+    "flow-remove-types": "^1.2.3"
+  },
+  "dependencies": {
+    "flow-bin": "^0.97.0"
+  }
+}
